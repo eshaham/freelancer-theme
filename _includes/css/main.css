@@ -170,6 +170,12 @@ header .intro-text .skills {
     border: 0;
 }
 
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #{{ site.color.secondary-dark }};
+}
+
 section {
     padding: 100px 0;
 }
