@@ -4,6 +4,10 @@ email: elad@shaham.net
 description: "Elad Shaham is a full stack developer, a veteran entrepreneur and a technical speaker. Hobbies: coding."
 skills: Full Stack Developer - Entrepreneur
 
+# Collections
+collections:
+  - projects
+
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 3E66BB #80B3FF
