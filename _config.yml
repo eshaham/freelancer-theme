@@ -35,7 +35,7 @@ address:
   - line: Tel Mond, Israel
   
 # Credits content
-credits: 'Built on top of the <a href="http://startbootstrap.com/template-overviews/freelancer/">Freelance template</a>, using <a href="http://jekyllrb.com">Jekyll</a> static site generator. You can find the complete website in <a href="https://github.com/eshaham/freelancer-theme">Github</a>.'
+credits: 'Built on top of the <a href="http://startbootstrap.com/template-overviews/freelancer/">Freelance template</a>, using <a href="http://jekyllrb.com">Jekyll</a> static site generator. You can find the complete site source code in <a href="https://github.com/eshaham/eshaham.github.io">Github</a>.'
 
 # Build settings
 markdown: kramdown
