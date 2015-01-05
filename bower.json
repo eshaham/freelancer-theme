@@ -1,0 +1,11 @@
+{
+  "name": "elad.shaham",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1"
+  }
+}
