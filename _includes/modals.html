@@ -19,7 +19,9 @@
                             <div class="project-screenshot">
                                 <a href="{{ project.site-url }}">
                                     <img src="img/portfolio/{{ project.img }}" class="img-responsive img-centered" alt="{{ project.title }}">
+                                    {% if project.site-url %}
                                     <span>{{ project.site-url | truncate: 50, '...' }}</span>
+                                    {% endif %}
                                 </a>
                             </div>
                             <div class="project-description">

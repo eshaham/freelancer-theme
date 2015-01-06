@@ -418,12 +418,10 @@ footer .footer-below {
     margin-bottom: 20px;
 }
 
-.portfolio-modal .modal-content .project-screenshot img {
-    margin-bottom: 15px;
-}
-
-.portfolio-modal .modal-content .project-screenshot a {
+.portfolio-modal .modal-content .project-screenshot span {
     font-weight: bold;
+    display: block;
+    margin-top: 15px;
 }
 
 .portfolio-modal .modal-content .item-details {
