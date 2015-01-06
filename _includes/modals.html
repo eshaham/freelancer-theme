@@ -38,9 +38,11 @@
                                     Role: <strong>{{ project.role }}</strong>
                                 </li>
                                 {% endif %}
+                                {% if project.project-date %}
                                 <li>
                                     Date: <strong>{{ project.project-date }}</strong>
                                 </li>
+                                {% endif %}
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
