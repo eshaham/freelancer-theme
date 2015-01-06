@@ -215,6 +215,7 @@ section.success a {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    border: solid 1px #{{ site.color.primary }};
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -412,8 +413,17 @@ footer .footer-below {
     font-size: 3em;
 }
 
-.portfolio-modal .modal-content img {
-    margin-bottom: 30px;
+.portfolio-modal .modal-content .project-screenshot {
+    border: solid 1px #{{ site.color.primary }};
+    margin-bottom: 20px;
+}
+
+.portfolio-modal .modal-content .project-screenshot img {
+    margin-bottom: 15px;
+}
+
+.portfolio-modal .modal-content .project-screenshot a {
+    font-weight: bold;
 }
 
 .portfolio-modal .modal-content .item-details {

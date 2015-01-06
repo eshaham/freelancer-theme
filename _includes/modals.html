@@ -12,22 +12,32 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ project.title }}</h2>
+                            <div class="project-title">
+                                <h2>{{ project.title }}</h2>
+                            </div>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ project.img }}" class="img-responsive img-centered" alt="{{ project.alt }}">
-                            <p>{{ project.description }}</p>
+                            <div class="project-screenshot">
+                                <a href="{{ project.site-url }}">
+                                    <img src="img/portfolio/{{ project.img }}" class="img-responsive img-centered" alt="{{ project.title }}">
+                                    <span>{{ project.site-url | truncate: 50, '...' }}</span>
+                                </a>
+                            </div>
+                            <div class="project-description">
+                                <p>{{ project.description }}</p>
+                            </div>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ project.client }}</a>
-                                    </strong>
+                                {% if project.client %}
+                                <li>
+                                    Client: <strong><a href="{{ project.client-url }}">{{ project.client }}</a></strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ project.project-date }}</a>
-                                    </strong>
+                                {% endif %}
+                                {% if project.role %}
+                                <li>
+                                    Role: <strong>{{ project.role }}</strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ project.category }}</a>
-                                    </strong>
+                                {% endif %}
+                                <li>
+                                    Date: <strong>{{ project.project-date }}</strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>

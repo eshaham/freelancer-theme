@@ -1,12 +1,10 @@
 ---
-layout: default
 modal-id: 1
-date: 2014-07-18
+title: CodeLordz Website
+site-url: https://www.codelordz.com
 img: codelordz.png
-alt: Codelordz
+role: Side-project founder
 project-date: April 2014
-client: Side project
-category: Web Development
-description: CodeLordz is a platform which tries to change software developers get recruited. It targets developers who are not necessarily actively looking for a job.
+description: Founded CodeLordz, a platform which tries to change the way software developers get recruited. It targets developers who are not necessarily actively looking for a job.
 
 ---
