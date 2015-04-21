@@ -1,10 +1,45 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-twitter_username: jekyllrb
-github_username:  jekyll
-baseurl: "/freelancer-theme"
+title: Elad Shaham
+email: elad@shaham.net
+description: "Elad Shaham is a full stack developer, a veteran entrepreneur and a technical speaker. Hobbies: coding."
+skills: Full Stack Developer - Entrepreneur
+
+# Collections
+collections:
+  - projects
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 3E66BB
+  secondary: 6690CC
+  secondary-dark: 2F538E
+  
+# Footer settings
+footer:
+  copyright: Elad Shaham
+  location: Location
+  social: Online
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: http://il.linkedin.com/in/eshaham
+  - title: twitter
+    url: http://twitter.com/eshaham
+  - title: facebook
+    url: https://www.facebook.com/elad.shaham
+  - title: stack-overflow
+    url: http://stackoverflow.com/users/3351315/eshaham
+  - title: github
+    url: http://github.com/eshaham
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Tel Mond, Israel
+  
+# Credits content
+credits: 'Built on top of the <a href="http://startbootstrap.com/template-overviews/freelancer/">Freelance template</a>, using <a href="http://jekyllrb.com">Jekyll</a> static site generator. You can find the complete site source code in <a href="https://github.com/eshaham/eshaham.github.io">Github</a>.'
 
 # Build settings
 markdown: kramdown
